@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Farsan');
+body{
+	background-color:#00aa00;
+	font-family:"Farsan";
+	height:100vh;
+}
+.outer{
+	position: relative;
+  top: 50%;
+	transform: translateY(-50%);
+}
+.quote-block{
+	background-color:#ffffff;
+	width:50%;
+	margin:auto;
+	padding:20px;
+	border-radius:10px;
+}
+.quote-block blockquote p{
+	font-size:30px;
+}
+.quote-block blockquote footer{
+	font-size:25px;
+}
+#author{
+	font-weight:10;
+}
+#quote-btn{
+	float:right;
+}
+.color{
+		color:#00aa00;
+}
+.footer{
+	margin-top:10px;
+}
+.footer p{
+	color:#ffffff;
+}
+.footer a{
+	color:#ffffff;
+	text-decoration:underline;
+	text-decoration-color:blue;
+}
